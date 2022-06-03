@@ -2,5 +2,10 @@
   "private": true,
   "devDependencies": {
     "lerna": "^5.0.0"
+  },
+  "scripts": {
+    "prebootstrap": "ls node_modules | grep lerna",
+    "bootstrap": "lerna bootstrap --ci --hoist mocha --hoist eslint --hoist nyc",
+    "postbootstrap": "ls node_modules | grep lerna"
   }
 }
