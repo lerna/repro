@@ -1,5 +1,8 @@
 {
   "private": true,
+  "scripts": {
+    "version": "vim CHANGELOG.md"
+  },
   "devDependencies": {
     "lerna": "^5.1.4"
   }
