@@ -1,0 +1,10 @@
+{
+  "name": "@axway/api-builder-plugin-invoke-flow",
+  "version": "1.2.1",
+  "dependencies": {
+    "@axway/api-builder-sdk": "1.2.3",
+    "@axway/api-builder-uri-utils": "1.0.0",
+    "promise.allsettled": "^1.0.4"
+  },
+  "devDependencies": null
+}

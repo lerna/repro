@@ -1,0 +1,12 @@
+{
+  "name": "axway-schema",
+  "version": "4.3.1",
+  "dependencies": {
+    "@axway/json-pointer": "^0.7.0",
+    "@axway/json-refs": "^4.0.0",
+    "ajv": "^6.12.5",
+    "strict-uri-encode": "^2.0.0",
+    "uri-js": "^3.0.2"
+  },
+  "devDependencies": null
+}

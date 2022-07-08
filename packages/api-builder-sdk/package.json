@@ -1,0 +1,13 @@
+{
+  "name": "@axway/api-builder-sdk",
+  "version": "1.2.3",
+  "dependencies": {
+    "@axway/api-builder-uri-utils": "1.0.0",
+    "ajv": "^6.12.5",
+    "js-yaml": "^3.13.1"
+  },
+  "devDependencies": {
+    "@axway/api-builder-test-utils": "1.5.9",
+    "@axway/flow": "6.7.17"
+  }
+}

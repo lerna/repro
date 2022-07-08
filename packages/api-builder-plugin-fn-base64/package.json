@@ -1,0 +1,8 @@
+{
+  "name": "@axway/api-builder-plugin-fn-base64",
+  "version": "4.1.2",
+  "dependencies": {
+    "@axway/api-builder-sdk": "1.2.3"
+  },
+  "devDependencies": null
+}
