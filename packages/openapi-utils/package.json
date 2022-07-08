@@ -1,0 +1,13 @@
+{
+  "name": "@axway/openapi-utils",
+  "version": "1.2.11",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "10.0.3",
+    "@axway/json-refs": "^4.0.0",
+    "@axway/swagger-tools": "^0.11.2",
+    "axway-schema": "4.3.1"
+  },
+  "devDependencies": {
+    "@axway/api-builder-test-utils": "1.5.9"
+  }
+}

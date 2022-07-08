@@ -1,0 +1,13 @@
+{
+  "name": "@axway/api-builder-test-utils",
+  "version": "1.5.9",
+  "dependencies": {
+    "ajv": "^6.12.5",
+    "axway-flow-schema": "5.4.3",
+    "chalk": "^4.1.2",
+    "simple-mock": "^0.8.0"
+  },
+  "devDependencies": {
+		"@axway/api-builder-sdk": "1.2.3"
+	}
+}
