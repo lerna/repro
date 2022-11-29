@@ -1,5 +1,14 @@
 {
   "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/**/*"
+    ]
+  },
+  "scripts": {
+    "start": "lerna run start",
+    "build": "lerna run build"
+  },
   "devDependencies": {
     "lerna": "^6.0.3"
   },
