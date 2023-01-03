@@ -1,6 +1,10 @@
 {
+  "name": "lerna-repro",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
-    "lerna": "^5.4.3"
+    "lerna": "^6.3.0"
   }
 }
