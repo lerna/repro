@@ -1,5 +1,5 @@
 {
-  "name": "lerna-repro",
+  "name": "lerna-repro-examples",
   "private": true,
   "devDependencies": {
     "lerna": "^6.3.0"
