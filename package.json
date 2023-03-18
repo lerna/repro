@@ -1,7 +1,14 @@
 {
   "name": "lerna-repro",
   "private": true,
+  "scripts": {
+    "publish": ""
+  },
   "devDependencies": {
-    "lerna": "^6.3.0"
+    "lerna": "^6.3.0",
+    "verdaccio": "^5.22.1"
+  },
+  "dependencies": {
+    "encodings": "^1.0.0"
   }
 }

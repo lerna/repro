@@ -1,0 +1,8 @@
+{
+  "name": "@test/b",
+  "description": "foo-1",
+  "version": "1.0.2",
+  "dependencies": {
+    "@test/a": "workspace:^1.0.2"
+  }
+}

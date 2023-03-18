@@ -1,0 +1,5 @@
+storage: ./storage
+packages:
+  '**':
+    access: $all
+log: { type: stdout, format: pretty, level: debug }
