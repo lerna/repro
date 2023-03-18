@@ -18,7 +18,7 @@ importers:
 
   packages/b:
     specifiers:
-      '@test/a': workspace:^1.0.3
+      '@test/a': workspace:^1.0.4
     dependencies:
       '@test/a': link:../a
 
