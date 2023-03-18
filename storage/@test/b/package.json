@@ -18,16 +18,35 @@
 				"tarball": "http://localhost:4873/@test/b/-/@test/b-1.0.4.tgz"
 			},
 			"contributors": []
+		},
+		"1.0.5": {
+			"name": "@test/b",
+			"description": "foo-1",
+			"version": "1.0.5",
+			"dependencies": {
+				"@test/a": "^1.0.4"
+			},
+			"gitHead": "055485f95364cac314d1d0ee10b5315a98e54a27",
+			"_id": "@test/b@1.0.5",
+			"_nodeVersion": "18.14.0",
+			"_npmVersion": "lerna/6.3.0/node@v18.14.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-vw5exhE0koZJ7BrOJ9HcbxOqNtQ1bZE1e2d2d61jMMaUkMnvRjzRJ9JEIDNblVbKDmjkIFSzll0LVltASCduYw==",
+				"shasum": "d22c593a3d6b7d43e356f31eb3ff162cb675301e",
+				"tarball": "http://localhost:4873/@test/b/-/@test/b-1.0.5.tgz"
+			},
+			"contributors": []
 		}
 	},
 	"time": {
-		"modified": "2023-03-18T08:49:44.304Z",
+		"modified": "2023-03-18T08:53:21.506Z",
 		"created": "2023-03-18T08:49:44.304Z",
-		"1.0.4": "2023-03-18T08:49:44.304Z"
+		"1.0.4": "2023-03-18T08:49:44.304Z",
+		"1.0.5": "2023-03-18T08:53:21.506Z"
 	},
 	"users": {},
 	"dist-tags": {
-		"latest": "1.0.4"
+		"latest": "1.0.5"
 	},
 	"_uplinks": {},
 	"_distfiles": {},
@@ -35,9 +54,13 @@
 		"b-1.0.4.tgz": {
 			"shasum": "0c40b739ea85ba1bdc23b5361e6dfc1f326427b9",
 			"version": "1.0.4"
+		},
+		"b-1.0.5.tgz": {
+			"shasum": "d22c593a3d6b7d43e356f31eb3ff162cb675301e",
+			"version": "1.0.5"
 		}
 	},
-	"_rev": "3-003c2cae484a9c31",
+	"_rev": "6-6409ccc16a508078",
 	"_id": "@test/b",
 	"readme": "ERROR: No README data found!"
 }
