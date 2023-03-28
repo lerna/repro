@@ -1,10 +1,14 @@
 {
-  "name": "lerna-repro",
+  "name": "repro-yarn-pnp",
   "private": true,
+  "scripts": {
+    "build": "lerna run build"
+  },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "lerna": "^6.3.0"
-  }
+    "lerna": "6.6.1"
+  },
+  "packageManager": "yarn@3.5.0"
 }
