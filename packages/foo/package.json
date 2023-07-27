@@ -1,0 +1,24 @@
+{
+    "name": "foo",
+    "version": "1.0.0",
+    "description": "Test",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "directories": {
+        "lib": "lib/"
+    },
+    "files": [
+        "lib/*.d.ts",
+        "lib/*.js.map",
+        "lib/*.js"
+    ],
+    "scripts": {
+        "build": "tsc -b"
+    },
+    "devDependencies": {
+        "typescript": "~5.1.6"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
