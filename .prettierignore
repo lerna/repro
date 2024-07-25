@@ -1,0 +1,7 @@
+coverage
+lib/
+package-lock.json
+.npm
+.nx/
+npm-debug.log*
+node_modules/
