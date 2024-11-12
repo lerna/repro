@@ -6,5 +6,8 @@
   ],
   "devDependencies": {
     "lerna": "^6.3.0"
+  },
+  "scripts": {
+    "version": "lerna version patch --yes"
   }
 }
